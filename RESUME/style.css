@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	margin-top: 25px;
+	background-color: black;
+	height: 100%;
+}
+.leftbar {
+width: 20%;
+background-color: rgb(2, 190, 81);
+height: 100%;
+margin: 20px;
+float: left;
+padding: 20px;
+border-radius: 15px;
+}
+
+.mainbar {
+	width: 80%;
+	background-color: rgb(230, 226, 12);
+	height: 500%;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+.rightbar {
+	width: 20%;
+	background-color:rgb(209, 11, 11);
+	height: 100%;
+	margin: 20px;
+	float: right;
+	padding: 20px;
+	border-radius: 20px;
+	
+
+	}
+
+
+
+@media (max-width: 800px) {
+	.leftbar{
+		display: flex;
+		background-color: azure;
+		font-display:inherit;
+	}
+}
+@media (max-width: 1020px) {
+	.rightbar{
+		display: none;
+;
+	}
+	
+}
+@media (max-width: 950px){
+	.mainbar{
+		display: none;
+	}
+}
